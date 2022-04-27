@@ -1,0 +1,48 @@
+body {
+    font-family: 'Garamond';
+    margin: 0;
+    padding: 0;
+}
+#baner {
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+#lewy {
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+#prawyTop {
+    background-color: tan;
+    height: 250px;
+    width: 60%;
+    float: left;
+
+}
+#prawyBot {
+    background-color: tan;
+    height: 250px;
+    width: 60%;
+    float: left;
+}
+#stopka {
+    background-color: saddlebrown;
+    color: white;
+
+}
+form {
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 30px;
+    width: 300px;
+}
+form input {
+    margin: 5px;
+}
+p::before {
+    content: 'STATUS: ';
+}
